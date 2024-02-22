@@ -1,1 +1,46 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.RandomCard {
+  background-color: white;
+  height: 500px;
+  width: 350px;
+  border-radius: 9px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  rotate: 4deg;
+  transform: scale(70%);
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.4);
+}
+
+.superior {
+  font-size: 80px;
+  position: absolute;
+  border-top-left-radius: 20px;
+  top: 20px;
+  left: 20px;
+}
+.medio {
+  font-size: 100px;
+  text-align: center;
+}
+.inferior {
+  font-size: 80px;
+  text-align: right;
+  transform: rotate(180deg);
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.cardhover {
+  rotate: 0deg;
+  transform: scale(85%);
+}
